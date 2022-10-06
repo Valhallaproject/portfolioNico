@@ -1,0 +1,53 @@
+.site{
+    font-family: 'Special Elite', cursive;
+}
+.site h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.firstImg{
+    margin-top: 50px;
+    height: 550px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.site .description{
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 24px;
+}
+.site .skillsSite{
+    margin-left: 10%;
+}
+.button-site{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.button-site button{
+    padding: 10px 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.button-site button a{
+        color: #f1d00a;
+}
+.otherVignette{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 90%;
+    margin-left: 5%;
+}
+.otherImg{
+    width: 20% ;
+    border: 1px solid black;
+    max-height: 300px;
+}

@@ -1,0 +1,43 @@
+.info{
+    width: 50%;
+}
+form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+label{
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 20px;
+}
+input{
+    height: 30px;
+    border-radius: 8px;
+    background-color: #eee;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+.message{
+    width: 50%;
+}
+.textarea{
+    width: 100%;
+}
+textarea{
+    border-radius: 8px;
+    background-color: #eee;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+}
+.button{
+    color: #eee;
+    background-color: black;
+    cursor: pointer;
+    line-height: 0px;
+}

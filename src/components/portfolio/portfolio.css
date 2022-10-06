@@ -1,0 +1,30 @@
+h2{
+    margin-left: 13%;
+    margin-top: 50px;
+    font-size: 48px;
+    font-family: 'Special Elite', cursive;
+}
+h2 span{
+    color: #f1d00a;
+}
+.carousel{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.alice-carousel__stage-item{
+    cursor: pointer;
+}
+.alice-carousel__stage-item img{
+    width: 90%;
+    height: 400px;
+    filter: grayscale(100%);
+}
+.alice-carousel__stage-item img:hover{
+    filter: grayscale(0%);
+    transition: 0.4s;
+}
+.alice-carousel__dots-item.__active{
+    background-color: #f1d00a !important;
+}
+
