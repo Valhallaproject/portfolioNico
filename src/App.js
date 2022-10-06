@@ -14,6 +14,8 @@ import Sunnyside from "./pages/sunnyside";
 import Culturekids from "./pages/culturekids";
 import Orinoco from "./pages/orinoco";
 import Volky from "./pages/volky";
+import Reservia from "./pages/reservia";
+
 
 
 
@@ -46,6 +48,7 @@ function App() {
           <Route path="portfolio-culturekids" element={<Culturekids />} />
           <Route path="portfolio-orinoco" element={<Orinoco />} />
           <Route path="portfolio-volky" element={<Volky />} />
+          <Route path="portfolio-reservia" element={<Reservia />} />
 
 
         </Routes>

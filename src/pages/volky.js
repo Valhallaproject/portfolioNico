@@ -29,7 +29,7 @@ function volky() {
         <div className="button-site">
           <button>
             <a
-              href="https://github.com/Valhallaproject/NicolasBictel_7_02082021"
+              href="https://github.com/Valhallaproject/volky"
               target="blank"
             >
               Github

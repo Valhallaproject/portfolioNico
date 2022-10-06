@@ -56,8 +56,8 @@ function portfolioPage() {
         <h2>Volky</h2>
       </div>
       <div className="vignette">
-        <Link to="/portfolio-orinoco">
-          <img src={Reservia} alt="site Orinoco" />
+        <Link to="/portfolio-reservia">
+          <img src={Reservia} alt="site reservia" />
         </Link>
         <h2>Reservia</h2>
       </div>
