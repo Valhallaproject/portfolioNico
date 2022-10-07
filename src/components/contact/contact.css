@@ -1,10 +1,22 @@
 .info{
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 10%;
+    font-family: "Special Elite", cursive;
+
 }
 form{
     margin-top: 20px;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+
+}
+.infoSend{
+    width: 45%;
 }
 label{
     font-size: 22px;
@@ -15,6 +27,7 @@ label{
 }
 input{
     height: 30px;
+    width: 100%;
     border-radius: 8px;
     background-color: #eee;
     padding: 10px;
@@ -22,7 +35,7 @@ input{
     border: 1px solid black;
 }
 .message{
-    width: 50%;
+    width: 100%;
 }
 .textarea{
     width: 100%;
@@ -34,10 +47,17 @@ textarea{
     border: 1px solid black;
     padding: 10px;
     font-size: 16px;
+    width: 100%;
+    margin-bottom: 30px;
 }
 .button{
     color: #eee;
     background-color: black;
     cursor: pointer;
     line-height: 0px;
+    width: 20% !important;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 30px;
+
 }

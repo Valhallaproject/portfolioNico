@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./aboutMe.css";
 
 function aboutMe() {
@@ -22,7 +23,7 @@ function aboutMe() {
           <br />
           Mais ne me croyez pas sur parole, consultez mon
           <span>
-            <a href="/portfolio"> portfolio</a>
+            <Link to="/portfolio"> portfolio</Link>
           </span>
           <span> .</span>
         </p>
