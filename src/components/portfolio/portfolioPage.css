@@ -23,3 +23,16 @@
 .vignette h2{
     font-size: 30px;
 }
+
+@media screen and (max-width: 1024px) {
+    .vignette{
+        width: 45%;
+    }
+    
+}
+@media screen and (max-width: 675px) {
+    .vignette{
+        width: 70%;
+    }
+    
+}

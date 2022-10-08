@@ -61,3 +61,22 @@ textarea{
     margin-bottom: 30px;
 
 }
+
+@media screen and (max-width: 800px) {
+    .info{
+        width: 80%;
+    
+    }
+}
+@media screen and (max-width: 675px){
+    form{
+        flex-direction: column;
+    }
+    .infoSend{
+        width: 100%;
+    }
+    .button{
+        width: 40% !important;
+    }
+    
+}

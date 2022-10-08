@@ -86,3 +86,55 @@
     margin-left: 40%;
   }
 }
+@media screen and (max-width: 1200px) {
+  .left h1 {
+    padding-left: 12%;
+    font-size: 70px;
+  }
+  @keyframes scale{
+    0%{
+      transform: scale(0);
+    }
+    100%{
+      transform: scale(7);
+    }
+  }
+  
+
+}
+@media screen and (max-width: 1024px) {
+  .right {
+    width: 100%;
+    margin-left: 10%;
+  }
+  .aboutText p {
+    font-size: 20px;
+  }
+  
+}
+@media screen and (max-width: 675px) {
+  .right {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 18px;
+  }
+  .left h1 {
+    padding-left: 12%;
+    font-size: 40px;
+  }
+  .aboutRound{
+    top: 250px;
+    left: 20%;
+  }
+  @keyframes scale{
+    0%{
+      transform: scale(0);
+    }
+    100%{
+      transform: scale(4);
+    }
+  }
+
+
+}
+

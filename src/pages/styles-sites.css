@@ -51,3 +51,31 @@
     border: 1px solid black;
     max-height: 300px;
 }
+@media screen and (max-width: 1024px){
+    .firstImg{
+        height: 400px;
+    }
+    .site .description{
+        font-size: 20px;
+        width: 80%;
+    }
+    .otherImg{
+        width: 45% ;
+        margin-bottom: 15px;
+        height: 200px;
+    }
+    
+}
+@media screen and (max-width: 675px){
+    .firstImg{
+        height: 250px;
+    }
+    .otherImg{
+        width: 70% ;
+    }
+    .site .description{
+        font-size: 18px;
+    }
+
+
+}
