@@ -49,8 +49,6 @@ function App() {
           <Route path="portfolio-orinoco" element={<Orinoco />} />
           <Route path="portfolio-volky" element={<Volky />} />
           <Route path="portfolio-reservia" element={<Reservia />} />
-
-
         </Routes>
       </Router>
     </div>
