@@ -1,5 +1,5 @@
 {
-  "homepage": ".",
+  "homepage": "https://valhallaproject.github.io/portfolioNico/",
   "name": "protfilio",
   "version": "0.1.0",
   "private": true,
@@ -48,7 +48,6 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  },
-  "proxy": "http://localhost:3000"
+  }
 
 }
