@@ -41,9 +41,6 @@ function Footer() {
           >
             <Link to="/portfolio">Portfolio</Link>
           </li>
-          <li className={window.location.pathname === "/blog" && "active_nav"}>
-            <Link to="/blog">Blog </Link>
-          </li>
         </ul>
       </div>
       <div className="footerContact">
