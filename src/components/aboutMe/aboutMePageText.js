@@ -4,7 +4,7 @@ import "./aboutMe.css";
 function aboutMePageText() {
   return (
     <div className="aboutText">
-        <p>Développeur web autodidacte puis diplômé du parcour développeur web Openclassrooms en 2021,</p>
+        <p>Développeur web autodidacte puis diplômé du parcours développeur web Openclassrooms en 2021,</p>
         <p>je vous accompagne dans la réalisation de vos projets web</p><br/>
         <p>De façon plus précise : <br/><br/>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Concevoir, manipuler et interroger des bases de données <span>MySql MongoDb</span><br/><br/>
