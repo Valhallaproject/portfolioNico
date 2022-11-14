@@ -47,7 +47,7 @@ function Footer() {
         </ul>
       </div>
       <div className="footerContact">
-        <p><Link to="/contact">nicolas.bitel@yahoo.com</Link></p>
+        <p><Link to="/contact">nicolas.bictel@yahoo.com</Link></p>
         <p>07 81 09 43 75</p>
       </div>
     </div>
