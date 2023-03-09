@@ -7,6 +7,7 @@ import CultureKids from "./../../asset/cultureKids.png";
 import Orinoco from "./../../asset/orinoco.png";
 import Volky from "./../../asset/volky.png";
 import Reservia from "./../../asset/reservia.png";
+import Dashboard from "./../../asset/dashboard.png"
 import "./portfolioPage.css";
 import { Link } from "react-router-dom";
 
@@ -61,6 +62,13 @@ function portfolioPage() {
         </Link>
         <h2>Reservia</h2>
       </div>
+      <div className="vignette">
+        <Link to="/portfolio-dashboard">
+          <img src={Dashboard} alt="site Social Dashboard" />
+        </Link>
+        <h2>Social Dashboard</h2>
+      </div>
+
     </div>
   );
 }

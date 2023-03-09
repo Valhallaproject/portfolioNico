@@ -5,9 +5,7 @@ import Contact from "./pages/contact";
 import Apropos from "./pages/apropos";
 import Portfolio from "./pages/portfolio";
 import Blog from "./pages/blog";
-import { ApolloProvider } from "react-apollo";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import client from "./utils/apolloClient";
 import PortfolioSite from "./pages/portfolioSite"
 import Groupomania from "./pages/groupomania";
 import Space from "./pages/space";
@@ -17,6 +15,7 @@ import Culturekids from "./pages/culturekids";
 import Orinoco from "./pages/orinoco";
 import Volky from "./pages/volky";
 import Reservia from "./pages/reservia";
+import Dashboard from './pages/dashboard';
 
 
 
@@ -36,7 +35,6 @@ function App() {
 
       </div>
       <Router>
-      <ApolloProvider client={client}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="contact" element={<Contact />} />
@@ -52,8 +50,8 @@ function App() {
           <Route path="portfolio-orinoco" element={<Orinoco />} />
           <Route path="portfolio-volky" element={<Volky />} />
           <Route path="portfolio-reservia" element={<Reservia />} />
+          <Route path="portfolio-dashboard" element={<Dashboard />} />
         </Routes>
-        </ApolloProvider>
       </Router>
     </div>
   );
